@@ -175,10 +175,17 @@ To compile and run the project, follow these steps:
 2. **Navigate to the project directory** where your files are located.
 3. **Compile the project** by running the following command:
    ```bash
-   make
-4. ./cs240StreamingService <input_file>
+   gcc main.c streaming_service.c -o main
+   
+4. Run the executable by running:
+   ```bash
+   ./main <input_file> # for Linux
+   ```
+   or
+   ```bash
+   main.exe <input_file> # for Windows
 
-where <input_file> is the name of your desired input file (e.g., ```./TestFiles/test_U10M30```).
+where <input_file> is the name of your desired input file (e.g., ```./testfiles-phase01/test_U5M10```).
 
 
 ## License
